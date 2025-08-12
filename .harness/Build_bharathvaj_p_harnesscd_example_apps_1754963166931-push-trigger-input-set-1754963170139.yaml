@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_bharathvaj_p_harnesscd_example_apps_1754963166931-push-trigger-input-set
+  identifier: Build_bharathvaj_p_harnesscd_example_apps_1754963166931pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_bharathvaj_p_harnesscd_example_apps_1754963166931
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
